@@ -1,0 +1,223 @@
+.frame {
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    height: 910PX;
+    border-radius: 25px;
+    background-color: #3d4fee;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border-top: 62px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url("images/OS_QuadCities.jpg");
+    background-size: cover;   
+    padding-top: 10px;
+    margin: 10px auto;
+    margin-bottom: 0px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.header {
+    width: 266px;
+    height: 20%;
+    border-radius: 50px;
+    background-color: #b7752a;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 12px;
+    margin: 30px;
+}
+
+.footer {
+    width: 266px;
+    height: 20%;
+    border-radius: 50px;
+    background-color: #b7752a;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.mid-section {
+    width: 800px;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 0px;
+    background-color: #b4daf5;
+    margin: 0px 10px;
+    color: #0d0b6b;
+}
+
+.title {
+    width: 475px;
+    height: 40px;
+    border-radius: 25px;
+    border-color: #0d0b6b;
+    background-color: #3d4fee;
+    margin: 10px auto 30px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.title-text {
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.midsectiongroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.putnam {
+    align-items: center;
+    padding-left: -40px;
+}
+
+.farmers {
+    align-items: center;
+}
+
+.bandits {
+    align-items: center;
+}
+
+.village {
+    align-items: center;
+}
+
+#container {
+    width: 230px;
+    height: 204px;
+    display: block;
+
+    display: flex;
+    flex-direction: column;
+    margin: -15px 18px;
+    align-items: center;
+    
+}
+
+.about-title {
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.about-text {
+    width: 150px;
+    height: 85px;
+    margin-top: -5px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#putnampic {
+    background-image: url("images/Museum.jpg");
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #0d0b6b;
+    margin: auto;
+}
+
+#farmerspic {
+    background-image: url("images/farmersmarket.jpg");
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #0d0b6b;
+    margin: auto; 
+}
+
+#banditspic {  
+    background-image: url("images/RiverBandits.jpg");
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #0d0b6b;
+    margin: auto;
+}
+
+#villagepic {
+    background-image: url("images/EastVillage.jpg");
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid #0d0b6b;
+    margin: auto;
+}
+
+.bottom-section {
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #b4daf5;
+    margin: 65px auto 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 220px;
+    margin: 10px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#rightside {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.yourguide {
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 150px;
+    text-align: center;
+}
+.aboutme {
+    width: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+#myname {
+    width: 150px;
+    font-size: 16px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
